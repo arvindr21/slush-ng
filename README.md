@@ -7,10 +7,10 @@
 
 ## Getting Started
 
-Install `slush-ng` globally:
+Install `gulp`, `slush` and `slush-ng` globally:
 
 ```bash
-$ npm install -g slush-ng
+$ npm install -g gulp slush slush-ng
 ```
 
 ### Usage

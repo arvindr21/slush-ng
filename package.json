@@ -1,7 +1,7 @@
 {
     "name": "slush-ng",
     "description": "A minimalist Angularjs boiler plate",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "homepage": "https://github.com/arvindr21/slush-ng",
     "author": {
         "name": "Arvind Ravulavaru",
@@ -38,6 +38,9 @@
         "iniparser": "^1.0.5"
     },
     "keywords": [
-        "slushgenerator"
+        "slushgenerator",
+        "Angularjs",
+        "minimal",
+        "boilerplate"
     ]
 }

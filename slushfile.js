@@ -17,7 +17,7 @@ var gulp = require('gulp'),
   inquirer = require('inquirer');
 
 function format(string) {
-  var username = string.toLowerCase();
+  var username = string ? string.toLowerCase() : '';
   return username.replace(/\s/g, '');
 }
 
@@ -50,6 +50,7 @@ gulp.task('default', function(done) {
         return done();
       }
       answers.appNameSlug = _.slugify(answers.appName);
+      answers.isWin = /^win/.test(process.platform);
       gulp.src(__dirname + '/templates/**')
         .pipe(template(answers))
         .pipe(rename(function(file) {
